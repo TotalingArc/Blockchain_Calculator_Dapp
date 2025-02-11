@@ -1,0 +1,165 @@
+:root {
+  --primary-bg: #1e1e1e;
+  --primary-text: rgb(215, 252, 10);
+  --secondary-bg: #121111;
+  --highlight-bg: #55df48;
+  --hover-bg: #45a049;
+  --active-shadow: rgba(0, 0, 0, 0.2);
+  --input-border: #ccc;
+  --button-border: #d1f505;
+  --error-bg: #f44336;
+  --error-hover: #d32f2f;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--primary-bg);
+  color: var(--primary-text);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.calculator {
+  width: 325px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #f5faf5;
+  border-radius: 10px;
+  background-color: var(--secondary-bg);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.display {
+  height: 70px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 40px;
+  text-align: right;
+  border: 1px solid #0a0909;
+  background: #8e8c8c;
+  border-radius: 5px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 buttons per row */
+  gap: 10px; /* Space between buttons */
+}
+
+.buttons button {
+  height: 60px;
+  font-size: 22px;
+  border: 1px solid var(--button-border);
+  background: var(--highlight-bg);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+.buttons button:hover {
+  background: var(--hover-bg);
+  transform: scale(1.05); /* Subtle zoom effect */
+}
+
+.buttons button:active {
+  box-shadow: inset 0 4px 6px var(--active-shadow); /* Depressed effect */
+}
+
+.staking-section {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.staking-section input {
+  width: 200px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid var(--input-border);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.stake-button,
+.withdraw-button {
+  width: 220px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+/* Stake Button */
+.stake-button {
+  background-color: var(--hover-bg);
+}
+
+.stake-button:hover {
+  background-color: #3e8e41;
+  transform: scale(1.05);
+}
+
+/* Withdraw Button */
+.withdraw-button {
+  background-color: var(--error-bg);
+}
+
+.withdraw-button:hover {
+  background-color: var(--error-hover);
+  transform: scale(1.05);
+}
+
+.connect-wallet-button {
+  width: 220px;
+  height: 60px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: var(--hover-bg);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.connect-wallet-button:hover {
+  background-color: #3e8e41;
+}
+
+.status-message {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #25f405;
+}
+
+.token-balance {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .calculator {
+    width: 100%; /* Full-width for smaller screens */
+    padding: 10px;
+  }
+
+  .staking-section input {
+    width: 100%; /* Full-width inputs */
+  }
+
+  .stake-button,
+  .withdraw-button,
+  .connect-wallet-button {
+    width: 100%; /* Full-width buttons */
+  }
+}
