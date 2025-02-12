@@ -15,19 +15,19 @@ This project combines React and blockchain technology, integrating a smart contr
 ✅ Scalable & Decentralized – Ideal for education, gamified learning, and DeFi apps
 
 🛠 #Tech Stack
-Frontend
-React.js
-ethers.js
-Web3.js
-CSS (Styled Components)
+**Frontend
+**React.js
+**ethers.js
+**Web3.js
+**CSS (Styled Components)
 
 ## Smart Contracts
-Solidity
-Hardhat
-OpenZeppelin
-Avalanche Fuji Testnet
+**Solidity
+**Hardhat
+**OpenZeppelin
+**Avalanche Fuji Testnet
 
 ## Backend (Optional)
-Node.js
-Express.js
+**Node.js
+**Express.js
 
