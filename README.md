@@ -31,3 +31,11 @@ This project combines React and blockchain technology, integrating a smart contr
 - Node.js
 - Express.js
 
+⚡ Installation & Setup
+1️⃣ Clone the Repository
+// bash
+Copy
+Edit
+git clone https://github.com/yourusername/blockchain-calculator.git
+cd blockchain-calculator //
+
