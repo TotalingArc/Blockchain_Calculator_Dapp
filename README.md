@@ -41,9 +41,15 @@ git clone https://github.com/yourusername/blockchain-calculator.git
 cd blockchain-calculator //
 ```
 2️⃣ Install Dependencies
-Frontend
+
+## Frontend
 ``` bash
 cd frontend
 npm install
-Contracts
+```
+
+## Contracts
+```bash
+cd ../contracts
+npm install
 ```
