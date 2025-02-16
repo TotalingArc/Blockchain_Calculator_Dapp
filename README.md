@@ -32,12 +32,12 @@ This project combines React and blockchain technology, integrating a smart contr
 
  ## Installation & Setup
 
-1️⃣ Clone the Repository
+## Clone the Repository
 ``` bash
 git clone https://github.com/yourusername/blockchain-calculator.git
 cd blockchain-calculator //
 ```
-2️⃣ Install Dependencies
+## Install Dependencies
 
 ### Frontend
 ``` bash
