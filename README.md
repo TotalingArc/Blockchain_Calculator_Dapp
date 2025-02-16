@@ -1,18 +1,18 @@
 # Blockchain_Calculator_Dapp
 
-🧮 #Blockchain-Powered Calculator 🔗 (Avalanche)
+🧮 ## Blockchain-Powered Calculator 🔗 (Avalanche)
 A React-based calculator integrated with Avalanche blockchain to mint tokens per calculation.
 
-🚀 #About the Project
+🚀 ## About the Project
 This project combines React and blockchain technology, integrating a smart contract on Avalanche that mints tokens as a reward for each successful calculation. It explores tokenized incentives, Web3 authentication, and real-world blockchain applications beyond finance.
 
-🔥 #Key Features
+🔥 ## Key Features
 
-✅ React-Based UI – Simple and user-friendly calculator interface
-✅ Blockchain-Connected – Smart contract mints tokens per calculation
-✅ Avalanche-Powered – Fast, low-cost transactions for seamless execution
-✅ Web3 Authentication – Wallet connection via MetaMask or WalletConnect
-✅ Scalable & Decentralized – Ideal for education, gamified learning, and DeFi apps
+- ✅ React-Based UI – Simple and user-friendly calculator interface
+- ✅ Blockchain-Connected – Smart contract mints tokens per calculation
+- ✅ Avalanche-Powered – Fast, low-cost transactions for seamless execution
+- ✅ Web3 Authentication – Wallet connection via MetaMask or WalletConnect
+- ✅ Scalable & Decentralized – Ideal for education, gamified learning, and DeFi apps
 
 🛠 # Tech Stack
 -  Frontend
