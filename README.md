@@ -58,3 +58,7 @@ PRIVATE_KEY=your_private_key
 RPC_URL=https://api.avax-test.network/ext/bc/C/rpc
 ```
 ### Deploy contracts:
+
+``` bash
+npx hardhat run scripts/deploy.js --network avalancheFuji
+```
