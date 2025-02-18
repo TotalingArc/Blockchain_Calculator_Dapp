@@ -62,3 +62,11 @@ RPC_URL=https://api.avax-test.network/ext/bc/C/rpc
 ``` bash
 npx hardhat run scripts/deploy.js --network avalancheFuji
 ```
+## Start the Frontend
+```bash
+cd frontend
+npm start
+```
+### The app will be available at http://localhost:3000.
+
+
