@@ -1,5 +1,5 @@
 # Blockchain_Calculator_Dapp
- ## Blockchain-Powered Calculator 🔗 (Avalanche)
+ ## Blockchain-Powered Calculator  (Avalanche/Fuji)
 A React-based calculator integrated with Avalanche blockchain to mint tokens per calculation.
 
  ## About the Project
