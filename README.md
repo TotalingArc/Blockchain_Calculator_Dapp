@@ -13,7 +13,7 @@ This project combines React and blockchain technology, integrating a smart contr
 - ✅ Web3 Authentication – Wallet connection via MetaMask or WalletConnect
 - ✅ Scalable & Decentralized – Ideal for education, gamified learning, and DeFi apps
 
- # Tech Stack
+ ## Tech Stack
 -  Frontend
 -  React.js
 -  ethers.js
