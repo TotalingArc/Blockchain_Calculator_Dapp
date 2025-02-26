@@ -7,11 +7,11 @@ This project combines React and blockchain technology, integrating a smart contr
 
  ### Key Features
 
-- ✅ React-Based UI – Simple and user-friendly calculator interface
-- ✅ Blockchain-Connected – Smart contract mints tokens per calculation
-- ✅ Avalanche-Powered – Fast, low-cost transactions for seamless execution
-- ✅ Web3 Authentication – Wallet connection via MetaMask or WalletConnect
-- ✅ Scalable & Decentralized – Ideal for education, gamified learning, and DeFi apps
+-  React-Based UI – Simple and user-friendly calculator interface
+-  Blockchain-Connected – Smart contract mints tokens per calculation
+-  Avalanche-Powered – Fast, low-cost transactions for seamless execution
+-  Web3 Authentication – Wallet connection via MetaMask or WalletConnect
+-  Scalable & Decentralized – Ideal for education, gamified learning, and DeFi apps
 
  ## Tech Stack
 -  Frontend
