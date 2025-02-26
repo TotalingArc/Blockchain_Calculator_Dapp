@@ -62,7 +62,7 @@ RPC_URL=https://api.avax-test.network/ext/bc/C/rpc
 ``` bash
 npx hardhat run scripts/deploy.js --network avalancheFuji
 ```
-## Start the Frontend
+### Start the Frontend
 ```bash
 cd frontend
 npm start
