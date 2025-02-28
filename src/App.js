@@ -43,7 +43,7 @@ const Calculator = () => {
       const contract = new Contract(CONTRACT_ADDRESS, tokenABI, signer);
       const walletAddress = await signer.getAddress();
       const balance = await contract.balanceOf(walletAddress);
-      setTokenBalance(ethers.formatUnits(balance, 18)); // Convert from wei to readable units
+      setTokenBalance(ethers.formatUnits(balance, 18)); // Convert wei to readable units
     } catch (error) {
       console.error("Error fetching token balance:", error);
     }
