@@ -51,7 +51,7 @@ cd ../contracts
 npm install
 ```
 ### Deploy Smart Contracts
-Set up a .env file with your private key and Avalanche RPC URL:
+Set up a .env file with your private key / Avalanche RPC URL:
 
 ```bash
 PRIVATE_KEY=your_private_key
